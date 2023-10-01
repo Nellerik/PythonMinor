@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4570cf6a-7351-442c-a4e4-586f707c6f35</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>part1\16.ZeroDivide.py</StartupFile>
+    <StartupFile>part2\MyStrip.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,25 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="part1\1.FirstProgram.py" />
-    <Compile Include="part1\10.HelloFunc2.py" />
-    <Compile Include="part1\11.Magic8Ball.py" />
-    <Compile Include="part1\12.SameName.py" />
-    <Compile Include="part1\13.SameName2.py" />
-    <Compile Include="part1\14.SameName3.py" />
-    <Compile Include="part1\15.SameName4.py" />
-    <Compile Include="part1\16.ZeroDivide.py" />
-    <Compile Include="part1\2.CodeBlocks.py" />
-    <Compile Include="part1\3.TypeYourName.py" />
-    <Compile Include="part1\4.JoeSwordfish.py" />
-    <Compile Include="part1\5.FiveTimes.py" />
-    <Compile Include="part1\6.Range3Arguments.py" />
-    <Compile Include="part1\7.PrintRandom.py" />
-    <Compile Include="part1\8.ExitExample.py" />
-    <Compile Include="part1\9.HelloFunc.py" />
+    <Compile Include="part1\password.py" />
+    <Compile Include="part1\picnicTable.py" />
+    <Compile Include="part1\Table.py" />
+    <Compile Include="part2\MyStrip.py" />
+    <Compile Include="part2\regex.py" />
     <Compile Include="PythonMinor.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="part2\" />
     <Folder Include="part1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
