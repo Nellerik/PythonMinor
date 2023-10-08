@@ -8,4 +8,5 @@ def My_strip(str1, substr = ""):
 
 str1 = input("Строка: ")
 str2 = input("Убрать из строки: ")
+
 print(My_strip(str1, str2))
