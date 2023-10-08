@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4570cf6a-7351-442c-a4e4-586f707c6f35</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>part2\MyStrip.py</StartupFile>
+    <StartupFile>part3\mcb.pyw</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,11 +24,15 @@
     <Compile Include="part1\password.py" />
     <Compile Include="part1\picnicTable.py" />
     <Compile Include="part1\Table.py" />
-    <Compile Include="part2\MyStrip.py" />
+    <Compile Include="part2\My_strip%28%29.py" />
     <Compile Include="part2\regex.py" />
+    <Compile Include="part3\mcb.pyw" />
+    <Compile Include="part3\randomQuizGenerator.py" />
     <Compile Include="PythonMinor.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Tests\" />
+    <Folder Include="part3\" />
     <Folder Include="part2\" />
     <Folder Include="part1\" />
   </ItemGroup>

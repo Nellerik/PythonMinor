@@ -3,7 +3,7 @@
 PASSWORD = {'email': 'QsadwWqWASDs'}
 import sys, pyperclip
 if len(sys.argv) < 2:
-    print('Использование: python pw.py [имя учетной записи] - копирование пароля учетной записи')
+    print('Использование: python password.py [имя учетной записи] - копирование пароля учетной записи')
     sys.exit()
     
 account = sys.argv[1]

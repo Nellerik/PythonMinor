@@ -3,12 +3,12 @@ tableData = [['apples', 'oranges', 'cherries', 'bannana'],
              ['dogs', 'cats', 'moose', 'goose']]
 
 colWidths = [0] * len(tableData[0])
-for l in tableData:
-    for s in range(len(l)):
-        if len(l[s]) > colWidths[s]:
-            colWidths[s] = len(l[s])
+for i in tableData:
+    for j in range(len(i)):
+        if len(i[j]) > colWidths[j]:
+            colWidths[j] = len(i[j])
 
-for l in tableData:
-    for s in range(len(l)):
-        print(l[s].rjust(colWidths[s] + 2), end='')
+for i in tableData:
+    for j in range(len(i)):
+        print(i[j].rjust(colWidths[j] + 2), end='')
     print();
