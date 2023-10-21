@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4570cf6a-7351-442c-a4e4-586f707c6f35</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>part3\reInFiles.py</StartupFile>
+    <StartupFile>4\RenameFiles.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,26 +21,44 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="part1\password.py" />
-    <Compile Include="part1\picnicTable.py" />
-    <Compile Include="part1\Table.py" />
-    <Compile Include="part2\My_strip%28%29.py" />
-    <Compile Include="part2\regex.py" />
-    <Compile Include="part3\MadLibs.py" />
-    <Compile Include="part3\mcb.pyw" />
-    <Compile Include="part3\randomQuizGenerator.py" />
-    <Compile Include="part3\reInFiles.py" />
+    <Compile Include="1\password.py" />
+    <Compile Include="1\picnicTable.py" />
+    <Compile Include="1\Table.py" />
+    <Compile Include="2\My_strip%28%29.py" />
+    <Compile Include="2\regex.py" />
+    <Compile Include="3\MadLibs.py" />
+    <Compile Include="3\mcb.pyw" />
+    <Compile Include="3\randomQuizGenerator.py" />
+    <Compile Include="3\reInFiles.py" />
+    <Compile Include="4\CopyFilesFromDirTree.py" />
+    <Compile Include="4\FindLargeFiles.py" />
+    <Compile Include="4\RenameFiles.py" />
     <Compile Include="PythonMinor.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="4\" />
+    <Folder Include="4\DirTree1\" />
+    <Folder Include="4\DirTree1\dir1\" />
+    <Folder Include="4\DirTree1\dir2\" />
+    <Folder Include="4\DirTree1\dir2\dir3\" />
+    <Folder Include="4\FilesCopies\" />
+    <Folder Include="4\FilesToRename\" />
     <Folder Include="txtFiles\" />
     <Folder Include="Tests\" />
-    <Folder Include="part3\" />
-    <Folder Include="part2\" />
-    <Folder Include="part1\" />
+    <Folder Include="3\" />
+    <Folder Include="2\" />
+    <Folder Include="1\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="part3\text.txt" />
+    <Content Include="3\text.txt" />
+    <Content Include="4\DirTree1\dir1\file2.txt" />
+    <Content Include="4\DirTree1\dir1\file3.txt" />
+    <Content Include="4\DirTree1\dir2\dir3\file4.txt" />
+    <Content Include="4\DirTree1\dir2\file5.pdf" />
+    <Content Include="4\DirTree1\file1.txt" />
+    <Content Include="4\FilesToRename\prefix001.txt" />
+    <Content Include="4\FilesToRename\prefix003.txt" />
+    <Content Include="4\FilesToRename\prefix004.txt" />
     <Content Include="txtFiles\Text1.txt" />
     <Content Include="txtFiles\Text2.txt" />
     <Content Include="txtFiles\Text3.txt" />
