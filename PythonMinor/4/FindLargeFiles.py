@@ -1,6 +1,5 @@
 import os
 
-#C:\Program Files
 for folderName, subfolders, filenames in os.walk('C:\\Program Files'):
     for filename in filenames:
         filesize = os.path.getsize(folderName + '\\' + filename) / (1024 * 1024)

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4570cf6a-7351-442c-a4e4-586f707c6f35</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>4\RenameFiles.py</StartupFile>
+    <StartupFile>5\Coin.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -33,6 +33,8 @@
     <Compile Include="4\CopyFilesFromDirTree.py" />
     <Compile Include="4\FindLargeFiles.py" />
     <Compile Include="4\RenameFiles.py" />
+    <Compile Include="5\Coin.py" />
+    <Compile Include="5\Coin2.py" />
     <Compile Include="PythonMinor.py" />
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +45,7 @@
     <Folder Include="4\DirTree1\dir2\dir3\" />
     <Folder Include="4\FilesCopies\" />
     <Folder Include="4\FilesToRename\" />
+    <Folder Include="5\" />
     <Folder Include="txtFiles\" />
     <Folder Include="Tests\" />
     <Folder Include="3\" />
